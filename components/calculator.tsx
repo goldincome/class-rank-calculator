@@ -56,19 +56,18 @@ export default function RankCalculator() {
         <a rel="sponsored" href="https://preply.sjv.io/c/4367596/2037652/24422" target="_top" id="2037652">
           <img 
             src="//a.impactradius-go.com/display-ad/24422-2037652" 
-            border={0} 
             alt="" 
             width="728" 
             height="90" 
-            className="max-w-full h-auto rounded-md" // Added classes to ensure it fits in the card
+            className="max-w-full h-auto rounded-md" 
           />
         </a>
         <img 
           height="0" 
           width="0" 
           src="https://imp.pxf.io/i/4367596/2037652/24422" 
-          style={{ position: 'absolute', visibility: 'hidden' }} // Converted to JSX style object
-          border={0} 
+          style={{ position: 'absolute', visibility: 'hidden' }} 
+          alt=""
         />
       </div>
       {/* End Sponsored Ad Section */}
