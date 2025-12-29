@@ -51,6 +51,27 @@ export default function RankCalculator() {
 
   return (
     <Card className="w-full max-w-md p-8 space-y-8 bg-card/50 backdrop-blur supports-[backdrop-filter]:bg-card/50 border-2 shadow-xl hover:shadow-2xl transition-shadow duration-300">
+      {/* Sponsored Ad Section */}
+      <div className="w-full flex justify-center mb-4 overflow-hidden">
+        <a rel="sponsored" href="https://preply.sjv.io/c/4367596/2037652/24422" target="_top" id="2037652">
+          <img 
+            src="//a.impactradius-go.com/display-ad/24422-2037652" 
+            border={0} 
+            alt="" 
+            width="728" 
+            height="90" 
+            className="max-w-full h-auto rounded-md" // Added classes to ensure it fits in the card
+          />
+        </a>
+        <img 
+          height="0" 
+          width="0" 
+          src="https://imp.pxf.io/i/4367596/2037652/24422" 
+          style={{ position: 'absolute', visibility: 'hidden' }} // Converted to JSX style object
+          border={0} 
+        />
+      </div>
+      {/* End Sponsored Ad Section */}
       <div className="flex items-center space-x-3">
         <div className="p-2 bg-primary/10 rounded-lg">
           <Calculator className="w-6 h-6 text-primary" />

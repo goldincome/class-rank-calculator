@@ -63,6 +63,14 @@ export default function Home() {
           </div>
         </div>
 
+        {/* Sponsored Ad Section */}
+        <div className="flex justify-center w-full mb-12 overflow-hidden">
+          <a rel="sponsored" href="https://preply.sjv.io/c/4367596/2037652/24422" target="_top" id="2037652">
+            <img src="//a.impactradius-go.com/display-ad/24422-2037652" border="0" alt="" width="728" height="90" />
+          </a>
+          <img height="0" width="0" src="https://imp.pxf.io/i/4367596/2037652/24422" style={{ position: 'absolute', visibility: 'hidden' }} border="0" />
+        </div>
+        
         {/* Benefits Section */}
         <div className="bg-card p-8 rounded-xl shadow-lg mb-12">
           <div className="flex items-center gap-2 mb-6">
